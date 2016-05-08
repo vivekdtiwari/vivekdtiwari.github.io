@@ -1,2 +1,3 @@
 # vivekdtiwari.github.io
-gh-pages trial
+Refresh and update github page. Delete previous test copy.
+Testing and learning usage.
