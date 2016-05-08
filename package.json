@@ -1,0 +1,30 @@
+{
+  "name": "vivekdtiwari.github.io",
+  "version": "1.0.0",
+  "description": "Testing react website on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekdtiwari/vivekdtiwari.github.io.git"
+  },
+  "keywords": [
+    "React",
+    "Homepage",
+    "User",
+    "profile",
+    "website"
+  ],
+  "author": "Vivek Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivekdtiwari/vivekdtiwari.github.io/issues"
+  },
+  "homepage": "https://github.com/vivekdtiwari/vivekdtiwari.github.io#readme",
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
