@@ -5,6 +5,12 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   inject : 'body'
 })
 
+var webpack = require('webpack')
+var ProdPlugin = new webpack.DefinePlugin({
+  "process.env": {
+     NODE_ENV: JSON.stringify("production")
+   }
+})
 module.exports = {
   entry : [
     './app/index.js'
@@ -18,5 +24,5 @@ module.exports = {
       {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
     ]
   },
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [HtmlWebpackPluginConfig,ProdPlugin]
 }
